@@ -12,10 +12,10 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+
     public void botaoLoginOnClick(View v){
         Intent tela = new Intent(this, Escolha.class);
         startActivity(tela);
     }
-
 
 }
